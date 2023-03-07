@@ -7,7 +7,7 @@ const char* ssid = "WiFi NU";
  //การประกาศสร้างตัวแปรเก็บ Username เครื่อข่าย WiFi ชื่อว่า ssid 
 const char* pass = "";
  //การประกาศสร้างตัวแปรเก็บ Password ของเครื่อข่าย WiFi ชื่อว่า pass
-String serverName ="http://phpserver/testsend.php"; 
+String serverName ="http://phpserver/02_server_side.php"; 
 void setup () {
   Serial.begin(9600); //
   WiFi.begin(ssid, NULL); //ทำการ Connect SSID และ Pass
